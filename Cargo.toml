@@ -6,4 +6,6 @@ edition = "2024"
 [dependencies]
 clap = { version = "4.5.47", features = ["derive"] }
 figlet-rs = "0.1.5"
+linfa = "0.7.1"
+tch = { version = "0.20.0", features = ["download-libtorch"] }
 tokio = { version = "1.47.1", features = ["full"] }

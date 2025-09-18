@@ -2,6 +2,7 @@
 
 - rust crate for massspectrometry retention time and retention index.
 - all massspectrometry claculation in one crate.
+- this crate will do also the machine learning on the mass-spectrometry data.
 
 ```
 cargo build
