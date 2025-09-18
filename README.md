@@ -9,17 +9,28 @@ cargo build
 ```
 
 ```
-rustRet
+_ __   _   _   ___  | |_  |  _ \  | ____| |_   _|
+| '__| | | | | / __| | __| | |_) | |  _|     | |
+| |    | |_| | \__ \ | |_  |  _ <  | |___    | |
+|_|     \__,_| |___/  \__| |_| \_\ |_____|   |_|
+
+
+rustRET.
+          ************************************************
+         Gaurav Sablok, IBCH, PAN, Poznan, Poland,
+         https://portal.ichb.pl/laboratory-of-genomics/.
+         Email: gsablok@ibch.poznan.pl
+         ************************************************
 
 Usage: rustRet <COMMAND>
 
 Commands:
-  retention-index  retention index calculation
-  help             Print this message or the help of the given subcommand(s)
+ retention-index  retention index calculation
+ help             Print this message or the help of the given subcommand(s)
 
 Options:
-  -h, --help     Print help
-  -V, --version  Print version
+ -h, --help     Print help
+ -V, --version  Print version
 ```
 ```
 ./target/debug/rustRet retention-index ./testfile/sample.txt

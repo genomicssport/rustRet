@@ -2,6 +2,11 @@
 name = "rustRet"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+authors = ["Gaurav Sablok <gsablok@ibch.poznan.pl>"]
+description = "mass-spectroscopy analyzer"
+homepage = "https://github.com/genomicssport/rustRet"
+repository = "https://github.com/genomicssport/rustRet"
 
 [dependencies]
 clap = { version = "4.5.47", features = ["derive"] }

@@ -3,7 +3,12 @@ use clap::{Parser, Subcommand};
 #[command(
     name = "retentiontools for mass spectrometry",
     version = "1.0",
-    about = "rustRet"
+    about = "rustRET.
+           ************************************************
+          Gaurav Sablok, IBCH, PAN, Poznan, Poland,
+          https://portal.ichb.pl/laboratory-of-genomics/.
+          Email: gsablok@ibch.poznan.pl
+          ************************************************"
 )]
 pub struct CommandParse {
     /// subcommands for the specific actions

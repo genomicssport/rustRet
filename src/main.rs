@@ -3,6 +3,7 @@ use crate::args::Commands;
 use clap::Parser;
 mod args;
 mod retentionindex;
+use figlet_rs::FIGfont;
 use retentionindex::retentionindexcal;
 
 /*
@@ -13,6 +14,9 @@ use retentionindex::retentionindexcal;
 * */
 
 fn main() {
+    let fontgenerate = FIGfont::standard().unwrap();
+    let repgenerate = fontgenerate.convert("rustRET");
+    println!("{}", repgenerate.unwrap());
     let argsparse = CommandParse::parse();
     match &argsparse.command {
         Commands::RetentionIndex { csvfile } => {
