@@ -20,7 +20,18 @@ pub struct CommandParse {
 pub enum Commands {
     /// retention index calculation
     RetentionIndex {
-        /// provide the path to the alignment file
+        /// provide the path to the retetnion file
         csvfile: String,
+    },
+    /// retention time calculate
+    TimeRetention {
+        /// provide the path to the file for the retention time calculation
+        filepath: String,
+    },
+    /// retention time adjusted calculation
+    RetentionTimeAdjust {
+        /// provide the path to the file,
+        filepath: String,
+        retentionfactor: String,
     },
 }

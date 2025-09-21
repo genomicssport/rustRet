@@ -3,15 +3,20 @@ use crate::args::Commands;
 use clap::Parser;
 mod args;
 mod retentionindex;
+mod retentiontime;
+mod retentiontimeadj;
 use figlet_rs::FIGfont;
 use retentionindex::retentionindexcal;
+use retentiontime::retentionindex;
+use retentiontimeadj::retentionadjust;
 
 /*
-* Author Gaurav Sablok
-*
-* a complete set of the mass spectrometry tools for the retention time and retention index calculation.
-*
-* */
+ Authom GauravSablok
+ Instytut Chemii Bioorganicznej
+ Polskiej Akademii Nauk
+ ul. Noskowskiego 12/14 | 61-704, Poznań
+ Date: 2025-9-19
+*/
 
 fn main() {
     let fontgenerate = FIGfont::standard().unwrap();
@@ -22,6 +27,17 @@ fn main() {
         Commands::RetentionIndex { csvfile } => {
             let command = retentionindexcal(csvfile).unwrap();
             println!("The merged alignment have been written: {:?}", command);
+        }
+        Commands::TimeRetention { filepath } => {
+            let command = retentionindex(filepath).unwrap();
+            println!("The retention time has been estimated{:?}", command);
+        }
+        Commands::RetentionTimeAdjust {
+            filepath,
+            retentionfactor,
+        } => {
+            let command = retentionadjust(filepath, retentionfactor).unwrap();
+            println!("The value has been estimated:{:?}", command);
         }
     }
 }

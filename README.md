@@ -16,21 +16,23 @@ _ __   _   _   ___  | |_  |  _ \  | ____| |_   _|
 
 
 rustRET.
-          ************************************************
-         Gaurav Sablok, IBCH, PAN, Poznan, Poland,
-         https://portal.ichb.pl/laboratory-of-genomics/.
-         Email: gsablok@ibch.poznan.pl
          ************************************************
+        Gaurav Sablok, IBCH, PAN, Poznan, Poland,
+        https://portal.ichb.pl/laboratory-of-genomics/.
+        Email: gsablok@ibch.poznan.pl
+        ************************************************
 
 Usage: rustRet <COMMAND>
 
 Commands:
- retention-index  retention index calculation
- help             Print this message or the help of the given subcommand(s)
+retention-index        retention index calculation
+time-retention         retention time calculate
+retention-time-adjust  retention time adjusted calculation
+help                   Print this message or the help of the given subcommand(s)
 
 Options:
- -h, --help     Print help
- -V, --version  Print version
+-h, --help     Print help
+-V, --version  Print version
 ```
 ```
 ./target/debug/rustRet retention-index ./testfile/sample.txt
