@@ -1,12 +1,12 @@
 [package]
 name = "rustRet"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 license = "MIT"
-authors = ["Gaurav Sablok <gsablok@ibch.poznan.pl>"]
+authors = ["Gaurav Sablok <codeprog@icloud.com>"]
 description = "mass-spectroscopy analyzer"
-homepage = "https://github.com/genomicssport/rustRet"
-repository = "https://github.com/genomicssport/rustRet"
+homepage = "https://github.com/omicscode/rustRet"
+repository = "https://github.com/omicscode/rustRet"
 
 [dependencies]
 clap = { version = "4.5.47", features = ["derive"] }

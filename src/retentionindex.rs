@@ -4,11 +4,8 @@ use std::io::Write;
 use std::io::{BufRead, BufReader};
 
 /*
-Author Gaurav Sablok
-Instytut Chemii Bioorganicznej
-Polskiej Akademii Nauk
-ul. Noskowskiego 12/14 | 61-704, Poznań
-Date: 2025-8-18
+Author Gaurav Sablok,
+Email: codeprog@icloud.com
 */
 
 #[tokio::main]

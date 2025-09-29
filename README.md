@@ -9,6 +9,7 @@ cargo build
 ```
 
 ```
+_     ____    _____   _____
 _ __   _   _   ___  | |_  |  _ \  | ____| |_   _|
 | '__| | | | | / __| | __| | |_) | |  _|     | |
 | |    | |_| | \__ \ | |_  |  _ <  | |___    | |
@@ -16,11 +17,10 @@ _ __   _   _   ___  | |_  |  _ \  | ____| |_   _|
 
 
 rustRET.
-         ************************************************
-        Gaurav Sablok, IBCH, PAN, Poznan, Poland,
-        https://portal.ichb.pl/laboratory-of-genomics/.
-        Email: gsablok@ibch.poznan.pl
-        ************************************************
+************************************************
+Author Gaurav Sablok,
+Email: codeprog@icloud.com
+************************************************
 
 Usage: rustRet <COMMAND>
 
@@ -40,7 +40,4 @@ elutes	retentiontime
 6	678.5714285714286
 ```
 Gaurav Sablok \
-Instytut Chemii Bioorganicznej \
-Polskiej Akademii Nauk \
-ul. Noskowskiego 12/14 | 61-704, Poznań \
-Poland
+codeprog@icloud.com

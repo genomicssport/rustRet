@@ -11,11 +11,8 @@ use retentiontime::retentionindex;
 use retentiontimeadj::retentionadjust;
 
 /*
- Authom GauravSablok
- Instytut Chemii Bioorganicznej
- Polskiej Akademii Nauk
- ul. Noskowskiego 12/14 | 61-704, Poznań
- Date: 2025-9-19
+Author Gaurav Sablok,
+Email: codeprog@icloud.com
 */
 
 fn main() {
